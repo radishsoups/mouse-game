@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- load in the p5 core library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+
+    <!-- your custom sketch code -->
+    <script src="sketch.js"></script>
+
+    <style>
+        body {
+            background-color: #b3baa8;
+        }
+
+        h1 {
+            font-family: Copperplate, sans-serif;
+            color: #7e876f;
+            text-align: center;
+        }
+
+        #container {
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+
+        #button {
+            width: 7%;
+            margin: auto;
+            text-align: center;
+        }
+
+        #instructions {
+            font-family: Copperplate, sans-serif;
+            color: #7e876f;
+            width: 40%;
+            margin: auto;
+        }
+
+        p {
+            margin-top: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mouse Game</h1>
+    <div id="container"></div>
+    <div id='button'>    
+        <button id="reset">Reset game</button>
+    </div>
+    <div id="instructions">
+        <p>Click the mouse on a color on the screen and your character will be positioned there. Collect as many leaves
+            as you can to get a high score. Green sprouts give you one point and orange leaves give you five points.
+            Make sure to avoid the mushrooms—they will decrease your score by five points.</p>
+    </div>
+</body>
+
+</html>
